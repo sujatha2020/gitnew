@@ -1,2 +1,2 @@
-# gitnew
-create a new git
+# TomcatMavenApp
+Sample Tomcat Maven App
