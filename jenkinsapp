@@ -1,0 +1,22 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                sh 'making the jenkins app'
+            }
+        }
+        stage('Test') { 
+            steps {
+                sh 'testing the jenkins app'
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                sh 'deploying the jenkins app'
+            }
+        }
+    }
+}
+
+
